@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+
+  body {
+    background-color: #0a0f1e;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  .hover\:bg-white\/2:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+  }
+}
